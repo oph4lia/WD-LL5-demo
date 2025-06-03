@@ -1,107 +1,112 @@
-# Tile by Nehir – Bootstrap Layout Starter
+# 🖼️ Tile by Nehir – Bootstrap Layout Starter
 
-Welcome to your Bootstrap layout activity! This project is part of **LiveLab 5** in the Global Career Accelerator. You’ll be building a responsive image layout inspired by a fictional design studio called _Tile by Nehir_.
+Welcome to your Bootstrap layout activity! This project is part of **LiveLab 5** in the Global Career Accelerator.
+
+You’ll be building a responsive image layout inspired by a fictional design studio called _Tile by Nehir_, using **Bootstrap** and **AI tools like GitHub Copilot**.
+
+---
+
+## 🚀 Quick Start in Codespaces
+
+Use the **starter launcher** (`index.html` in the root) to preview your activity files in Live Server.
+
+### ✅ To launch your activity:
+
+1. In Codespaces, **right-click** `index.html` in the root folder
+2. 2. Choose the option that says either:
+   - `Preview with Live Server`  
+   - **or** `Show Preview`  
+   _(the wording might be slightly different — either one works!)_
+3. A new browser tab or side panel will open with two links:
+   - `🖼️ Tile by Nehir Starter` → opens `tile-activity/tile.html`
+   - `🌀 Parallax Level-Up` → opens `level-up-parallax/parallax.html`
+
+---
+
+## 📁 What Files to Edit
+
+> ✅ You **should only edit**:
+>
+> - `tile-activity/tile.html` and `tile-style.css` — main layout activity
+> - `level-up-parallax/parallax.html` and `parallax-style.css` — bonus challenge (optional)
+
+> 🚫 **Do not edit**:
+> - `index.html` in the root — it’s just a launcher
+> - Stylesheets outside your assigned activity folder
+
+---
+
+## 🧰 Tools You Already Have in Codespaces
+
+You’re already set up with everything you need:
+
+- ✅ **GitHub Copilot** is ready to use — try asking it to suggest layout improvements or fix spacing
+- ✅ **Live Preview** is built-in — just right-click your HTML file and choose `Preview with Live Server` or `Show Preview`  
+  _(Either one works — the option name might vary a little)_
+- ✅ No extra setup needed — just start building!
 
 ---
 
 ## 🧠 What You’ll Learn
 
-- How to structure a webpage using **Bootstrap’s grid system**
-- How to use **Bootstrap utility classes** to control spacing, alignment, and responsiveness
-- How to combine Bootstrap with a few **custom styles**
-- How to prompt AI tools like **ChatGPT** or **Copilot** to help you improve layout, debug issues, or style your code
+- How to use **Bootstrap’s grid system** (`container`, `row`, `col-*`)
+- How to apply **utility classes** for spacing, alignment, and image resizing
+- How to combine Bootstrap with **custom styling**
+- How to use **AI tools like GitHub Copilot** or **ChatGPT** to improve layout, debug issues, or style your code
 
 ---
 
-## 🚀 How to Preview Your Code in Codespaces
+## 🧪 What You’ll Do
 
-We’ve set up a **starter page (`index.html`)** to help you easily open the right file in Live Server.
+During the lab:
 
-1. In the file list, find and right-click `index.html`
-2. Choose **"Preview with Live Server"**
-3. You’ll see two links:
-   - `🖼️ Tile by Nehir Starter`: for your Bootstrap layout activity
-   - `🌀 Parallax Level-Up`: LEVEL UP for an optional scroll effect challenge
-
-You do **not** need to open the other `index-nehir.html` or `index-parallax.html` files directly.
-
----
-
-> 💡 We renamed those files to keep things organized and help Live Server route things cleanly.
+1. Add the Bootstrap CDN to your HTML file (if not already added)
+2. Wrap the images in a Bootstrap grid (`container`, `row`, `col-*`)
+3. Apply utility classes like:
+   - `img-fluid` (responsive images)
+   - `mb-3`, `g-4`, `text-center`, `p-3` (spacing/alignment)
+4. Use **AI prompts** from Copilot or the Resource Doc
+5. Optionally: try hover effects, add cards, or complete the Parallax challenge
 
 ---
 
-## 🔧 During the LiveLab
+## ✅ Your Core Goals
 
-Your starter includes:
-
-- A styled heading using **Playfair Display** and a background color
-- Four stacked tile images, each with spacing (`mb-3`)
-- Custom CSS already applied
-
-But it’s **not responsive… yet.**
-
-In the LiveLab, your instructor will guide you through:
-
-- **Adding the Bootstrap CDN link** to activate Bootstrap classes
-- Using the Bootstrap **grid system** (`container`, `row`, `col-*`) to create a responsive layout
-- Applying **utility classes** like `img-fluid`, `g-4`, or `text-center`
-- Prompting **AI tools like ChatGPT or Copilot** to debug layout or explore enhancements
-
-> 👀 You’ll see how one line of Bootstrap can dramatically change the layout.
->
-> 📌 You can follow along _live_ and add the code step-by-step  
-> **OR** wait until after the demo and try it on your own with your team.
+- [ ] Build a responsive layout that works on mobile and desktop
+- [ ] Use Bootstrap layout classes and utility styles
+- [ ] Use at least **one AI prompt** during the activity
+- [ ] Share one improvement you made with help from AI
 
 ---
 
-## 👩‍💻 In Teams: What You’ll Do
+## 💬 Team Prompts & Reflections
 
-Once in breakout rooms:
-
-1. Use the provided starter code to build your tile layout
-2. Apply **Bootstrap grid classes** to make it responsive
-3. Use **utility classes** to add spacing, padding, and image styling
-4. Use at least **one AI prompt** from the Resource Doc to improve layout or solve a styling issue
-5. Optionally: Add hover effects, background color, or wrap each image in a card
+- What Bootstrap class fixed a layout issue?
+- What did Copilot suggest?
+- What worked and what didn’t from AI-generated code?
+- What’s one layout tweak you’re proud of?
 
 ---
 
-## ✅ Core Goals
+## 🔼 Bonus Challenge: Level Up Options
 
-- [ ] Your layout should work well on mobile and desktop
-- [ ] Use Bootstrap’s `container`, `row`, and column classes like `col-12`, `col-sm-6`, or `col-md-4` to build your layout.
-- [ ] At least 1 layout or style enhancement should come from an AI suggestion
-- [ ] Be ready to share what you built and what AI helped you with!
+Already nailed your tile layout? Try one of these:
 
----
+### 📐 Gallery Layout
 
-## 💬 Questions to Discuss as a Team
+Use the wireframe example and prompt AI to match it:
+> “Make this layout: 1 column on mobile, 2 on tablet, 4 on desktop.”
 
-- What Bootstrap classes helped make your layout responsive?
-- What did AI suggest that you kept, changed, or ignored?
-- What was the biggest challenge you had to debug or figure out?
+🖼️ [View the Wireframe](assets/gallery-wireframe.png)
 
 ---
 
+### ✨ Parallax Scroll Effect
+
+Try a layout where the background scrolls at a different speed than the text.
+
+🌀 [Start the Parallax Challenge](level-up-parallax/parallax.html)
+
 ---
-
-### 🔼 Optional: Level Up Challenge (Pick One if you finish early!)
-
-Already nailed your layout? Try one of these bonus activities:
-
-#### 📐 Option 1: Match the Gallery Wireframe
-
-Use the optional wireframe image to recreate a responsive layout. Try prompting AI with:
-
-> “Match this gallery layout: 1 column on mobile, 2 on tablet, 4 on desktop.”
-
-📸 [View the Wireframe](assets/gallery-wireframe.png)
-
-#### ✨ Option 2: Add a Parallax Scroll Effect
-
-Explore how to make a section scroll with depth using background images.
-
-🌀 [View the Parallax Starter Code](level-up-parallax/index.html)
 
 Happy building!

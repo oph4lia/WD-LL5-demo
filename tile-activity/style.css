@@ -5,7 +5,7 @@
 
 /* Set a soft textured background for the whole page */
 body {
-  background-image: url('assets/offwhite-background.jpg');
+  background-image: url('../assets/offwhite-background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -28,7 +28,7 @@ img {
 /* Optional decorative border for each tile */
 .border-tile {
   border: 20px solid transparent;
-  border-image: url('assets/wood.jpg') 30 round;
+  border-image: url('../assets/wood.jpg') 30 round;
   padding: 5px;
   background-color: white;
 }
