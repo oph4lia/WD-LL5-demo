@@ -1,4 +1,4 @@
-Students are beginners learning the basics of JavaScript, APIs and OpenAI.Add commentMore actions
+Students are beginners learning the basics of JavaScript, APIs and OpenAI.
 
 We use OpenAI's gpt-4o model, unless asked to use a different model.
 
