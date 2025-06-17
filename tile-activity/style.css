@@ -11,12 +11,25 @@ body {
   background-attachment: fixed;
   font-family: sans-serif;
   padding: 16px; /* Adds space around edges on small screens */
+/* Add a subtle zoom and shadow effect when hovering over tiles */
+.border-tile:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
+/* Smooth transition for the tile */
+.border-tile {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
 /* Header polish */
 h1 {
   padding: 8px;
   border-radius: 4px;
+}
+
+h1.text-center {
+      text-align: center;
 }
 
 /* Limit image dimensions so tiles don’t overflow the layout */
@@ -40,6 +53,30 @@ img {
   font-size: 14px;
   color: #444;
 }
+
+/* Add a parallax scroll effect using a fixed pseudo-element background */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../assets/offwhite-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.5; /* Makes the background subtle */
+  z-index: -1; /* Keeps it behind all content */
+  pointer-events: none; /* Allows clicks through the background */
+  /* Parallax effect: background moves slower than scroll */
+  will-change: transform;
+  transition: transform 0.2s;
+}
+
+
+}
+ 
 
 /* 💡 Optional Enhancements:
    - Try adding a hover effect with transform and box-shadow
